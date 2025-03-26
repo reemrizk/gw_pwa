@@ -58,7 +58,7 @@ const PhotoButton = () => {
                 style={{ width: "100%", maxWidth: "400px" }}
               />
               <button onClick={() => setImageSrc(null)} style={{ marginTop: "10px" }}>
-                🔄 Retake Photo
+                Retake Photo
               </button>
             </div>
           )}
