@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
     <Navbar />
-    <h1>GreenWorks Device Manager 3</h1>
+    <h1>GreenWorks Device Manager 3.5</h1>
     <PhotoButton />
   </div>
 );
