@@ -12,10 +12,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
     <Navbar />
-    <h1>GreenWorks Device Manager 3.5</h1>
-    <div id="custom-refresh-bar" style="display: none;">
-  A new version is available. <button onclick="window.location.reload()">Refresh</button>
-</div>
+    <h1>GreenWorks Device Manager 4</h1>
+
 
     <PhotoButton />
   </div>
