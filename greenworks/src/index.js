@@ -13,6 +13,10 @@ root.render(
   <div>
     <Navbar />
     <h1>GreenWorks Device Manager 3.5</h1>
+    <div id="custom-refresh-bar" style="display: none;">
+  A new version is available. <button onclick="window.location.reload()">Refresh</button>
+</div>
+
     <PhotoButton />
   </div>
 );
@@ -21,3 +25,4 @@ root.render(
 serviceWorkerRegistration.register();
 
 reportWebVitals();
+
