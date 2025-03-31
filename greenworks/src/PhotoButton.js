@@ -41,6 +41,7 @@ const PhotoButton = () => {
                 ref={webcamRef}
                 screenshotFormat="image/jpeg"
                 style={{ width: "100%", maxWidth: "400px" }}
+                
               />
               <button onClick={capturePhoto} style={{ marginTop: "10px" }}>
                 Take Photo
