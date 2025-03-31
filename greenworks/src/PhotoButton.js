@@ -41,6 +41,9 @@ const PhotoButton = () => {
                 ref={webcamRef}
                 screenshotFormat="image/jpeg"
                 style={{ width: "100%", maxWidth: "400px" }}
+                videoConstraints= {{
+                  facingMode: {exact: "environment"},
+                }}
                 
               />
               <button onClick={capturePhoto} style={{ marginTop: "10px" }}>
