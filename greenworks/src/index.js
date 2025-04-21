@@ -31,7 +31,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <h1>GreenWorks Device Manager 1.1</h1>
+      <h1>GreenWorks Device Manager 2.0</h1>
       <PhotoButton />
     </div>
   );
